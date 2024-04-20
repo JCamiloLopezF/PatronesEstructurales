@@ -10,6 +10,8 @@ public class CarroElectrico {
     }
     public void acelerar(){
     }
+    public void frenar(){
+    }
     public void desconectar() {
     }
 }

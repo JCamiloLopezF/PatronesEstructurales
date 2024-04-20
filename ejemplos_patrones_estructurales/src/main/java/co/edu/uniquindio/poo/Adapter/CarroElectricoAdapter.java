@@ -30,6 +30,7 @@ public class CarroElectricoAdapter extends Carro{
     @Override
     public void frenar() {
         System.out.println("Frenando...");
+        this.carroElectrico.frenar();
     }
 
     @Override
