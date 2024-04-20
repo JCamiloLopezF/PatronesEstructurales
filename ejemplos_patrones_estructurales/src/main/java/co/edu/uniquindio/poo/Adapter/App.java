@@ -6,6 +6,6 @@ package co.edu.uniquindio.poo.Adapter;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        //Carro carro = new Carro();
     }
 }

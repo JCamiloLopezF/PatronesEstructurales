@@ -1,11 +1,15 @@
 package co.edu.uniquindio.poo.Decorator;
-
 /**
- * Hello world!
+ * 
  *
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Carro carro = new Carro("WSA234", "Verde", false);
+
+        CarroInterface carroDeportivo = new CarroDeportivo();
+        CarroInterface carroDeporConVidrios = new VidrioDecorator(carroDeportivo);
+
+        carroDeporConVidrios.abrirPuerta(carro);
     }
 }
