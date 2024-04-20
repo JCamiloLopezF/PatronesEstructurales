@@ -5,7 +5,23 @@ package co.edu.uniquindio.poo.Adapter;
  *
  */
 public class App {
-    public static void main(String[] args) {
-        //Carro carro = new Carro();
+    public void manejarCarroGasolina(){
+        Carro carro = new CarroGasolina() ;
+        carro.encender();
+        carro.acelerar();
+        carro.frenar();
+        carro.apagar();
+        carro.recargar();
     }
+    
+    public void manejarCarroElectrico(){
+        CarroElectrico carroElectrico = new CarroElectrico();
+        Carro carro = new CarroElectricoAdapter(carroElectrico);
+        carro.encender();
+        carro.acelerar();
+        carro.frenar();
+        carro.apagar();
+        carro.recargar();
+    }
+
 }
