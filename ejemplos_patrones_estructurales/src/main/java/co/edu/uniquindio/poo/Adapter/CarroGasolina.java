@@ -23,7 +23,7 @@ public class CarroGasolina extends Carro{
     }
 
     @Override
-    public void recargar() {
+    public void tanquear() {
         System.out.println("Recargando gasolina...");
     }
 

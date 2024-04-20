@@ -34,7 +34,7 @@ public class CarroElectricoAdapter extends Carro{
     }
 
     @Override
-    public void recargar() {
+    public void tanquear() {
         System.out.println("Recargando...");
         this.carroElectrico.conectar();
     }

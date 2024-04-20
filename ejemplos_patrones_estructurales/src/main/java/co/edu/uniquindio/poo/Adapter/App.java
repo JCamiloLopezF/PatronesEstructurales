@@ -11,7 +11,7 @@ public class App {
         carro.acelerar();
         carro.frenar();
         carro.apagar();
-        carro.recargar();
+        carro.tanquear();
     }
     
     public void manejarCarroElectrico(){
@@ -21,7 +21,7 @@ public class App {
         carro.acelerar();
         carro.frenar();
         carro.apagar();
-        carro.recargar();
+        carro.tanquear();
     }
 
 }
