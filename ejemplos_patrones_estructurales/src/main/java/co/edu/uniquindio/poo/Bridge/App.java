@@ -1,4 +1,4 @@
-package co.edu.uniquindio.poo.Bridget;
+package co.edu.uniquindio.poo.Bridge;
 
 /**
  * Hello world!
