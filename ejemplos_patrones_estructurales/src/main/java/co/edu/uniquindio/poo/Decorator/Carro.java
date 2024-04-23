@@ -1,5 +1,4 @@
 package co.edu.uniquindio.poo.Decorator;
-
 public class Carro {
 
 private String placa;

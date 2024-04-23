@@ -1,11 +1,6 @@
 package co.edu.uniquindio.poo.Facade;
-
 import java.util.Scanner;
 
-/**
- * Hello world!
- *
- */
 public class App {
     public static void main(String[] args) {
         Scanner input1 = new Scanner(System.in);
@@ -24,13 +19,5 @@ public class App {
         System.out.println("El resultado de la suma es:"+ resta );
         int multiplicacion = fachada.multiplicar(numero1, numero2);
         System.out.println("El resultado de la multiplicación es:" + multiplicacion);
-
-
-
-        //SumaPrimos suma = new SumaPrimos(numero1, numero2);
-
-        //int resultado = suma.SumarPrimos(numero1, numero2);
-        
-        //System.out.println("El resultado es:" + resultado);
     }
 }
