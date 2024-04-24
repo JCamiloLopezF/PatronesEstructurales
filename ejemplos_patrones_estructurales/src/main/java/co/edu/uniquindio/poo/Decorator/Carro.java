@@ -1,15 +1,13 @@
 package co.edu.uniquindio.poo.Decorator;
-
 public class Carro {
 
 private String placa;
 private String color;
-private boolean pegatinas;
 
-public Carro(String placa, String color, boolean pegatinas) {
+
+public Carro(String placa, String color) {
     this.placa = placa;
     this.color = color;
-    this.pegatinas = pegatinas;
 }
 
 public String getPlaca() {
@@ -20,10 +18,6 @@ public String getColor() {
     return color;
 }
 
-public boolean isPegatinas() {
-    return pegatinas;
-}
-
 public void setPlaca(String placa) {
     this.placa = placa;
 }
@@ -31,9 +25,5 @@ public void setPlaca(String placa) {
 public void setColor(String color) {
     this.color = color;
 }
-
-public void setPegatinas(boolean pegatinas) {
-    this.pegatinas = pegatinas;
-} 
 
 }
